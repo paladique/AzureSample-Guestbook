@@ -25,7 +25,7 @@ const conn = mysql.createConnection({
     database: process.env.SQLDB,
     port: 3306,
     ssl: {
-        ca: fs.readFileSync('cert.crt.pem')
+        ca: fs.readFileSync('BaltimoreCyberTrustRoot.crt.pem')
     }
 });
 
@@ -118,6 +118,7 @@ conn.connect(err => {
         throw err;
     } else {
         console.log("MySQL connection established!");
+        //Grab Database records when MySQL is connected
         conn.query('SELECT * FROM guestbook', getSQLResults);
         mongoClient.connect(process.env.CosmosConn, getMongoResults);
     }

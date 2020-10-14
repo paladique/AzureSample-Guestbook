@@ -2,7 +2,7 @@
 
 [Guestbooks](https://en.wikipedia.org/wiki/Guestbook) are a way for visitors to a event or location to leave their mark, typically with their name and message. Around the late 1990s/early 2000s, digital guestbooks were pretty popular.
 
-This demo is a digital guestbook, that walks through different types of data, using the Azure Data platform.
+This simplified demo is a digital guestbook that walks through different types of data, using the Azure Data platform.
 
 ## How it works
 
@@ -41,11 +41,12 @@ Features:
 ## Configure MySQL
 
 3. Open your MySQL Server (starts with `mysql-`).
-4. On the left menu, visit **Connection Security** and click **+ Add client IP*** to add a firewall rule for your ip address.
-5. Set **Allow access to Azure Services** to **On**.
-6. Go back to the **Overview** in MySQL. Your **server name** and **server admin login name**
-7. Click on the terminal icon at the top of the portal to open the Cloud Shell Terminal.
-8. Connect to MySQL with the following command replace the `servername` and `server admin login name` with the values in the overview of MySQL:
+4. Download this [certificate](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt.pem) and copy to the root of this directory
+5. On the left menu, visit **Connection Security** and click **+ Add client IP*** to add a firewall rule for your ip address.
+6. Set **Allow access to Azure Services** to **On**.
+7. Go back to the **Overview** in MySQL. Your **server name** and **server admin login name**
+8. Click on the terminal icon at the top of the portal to open the Cloud Shell Terminal.
+9. Connect to MySQL with the following command replace the `servername` and `server admin login name` with the values in the overview of MySQL:
 
 `mysql -h servername.mysql.database.azure.com -u adminname@servername -p`
 
@@ -73,8 +74,8 @@ SQLPassword = [password for admin login]
 
 ## Visit Cosmos DB
 
-9. Open your Cosmos DB database (starts with `cosmos-`).
-10. On the left menu, visit **Connection String** and copy the **Primary conenction string**
+10. Open your Cosmos DB database (starts with `cosmos-`).
+11. On the left menu, visit **Connection String** and copy the **Primary conenction string**
 
 In the .env file, enter the following values:
 
@@ -87,12 +88,16 @@ Navigate to the code in your favorite command line tool (You will already be the
 it should look something like
 `some\path\directory\Sample-IntroData`
 
-Enter the following command:
+Enter the following commands:
+`npm install`
 `npm start`
 
 Visit [localhost:3000](http://localhost:3000/)
 
 ## Learn more
 
-## Contributions Welcome
 
+### Deploy the site to Azure
+
+
+Contributions are welcome!
