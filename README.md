@@ -16,16 +16,16 @@ Features:
 
 ## Azure Resources Uses
 
-- [Azure DB for MySQL](https://docs.microsoft.com/en-us/azure/mysql/overview?WT.mc_id=ca-github-jasmineg)
-- [Cosmos DB (Mongo DB API)](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-introduction?WT.mc_id=ca-github-jasmineg)
-- [Azure App Service (optional)](https://docs.microsoft.com/en-us/azure/app-service/?WT.mc_id=ca-github-jasmineg)
+- [Azure DB for MySQL](https://docs.microsoft.com/azure/mysql/overview?WT.mc_id=ca-github-jasmineg)
+- [Cosmos DB (Mongo DB API)](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction?WT.mc_id=ca-github-jasmineg)
+- [Azure App Service (optional)](https://docs.microsoft.com/azure/app-service/?WT.mc_id=ca-github-jasmineg)
 
 ## How to Run
 
 ### Requirements
 
-- [Azure Account](https://azure.microsoft.com/en-us/free/?WT.mc_id=ca-github-jasmineg)
-- NodeJS
+- [Azure Account](https://azure.microsoft.com/free/?WT.mc_id=ca-github-jasmineg)
+- [Node.js](https://nodejs.org/)
 - Clone/download this repo
 
 ## Create and configure Azure resources
@@ -41,7 +41,7 @@ Features:
 ## Configure MySQL
 
 3. Open your MySQL Server (starts with `mysql-`).
-4. Download this [certificate](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt.pem) and copy to the root of this directory. [***Why you have to do this***](https://docs.microsoft.com/en-us/azure/mysql/howto-configure-ssl?WT.mc_id=ca-github-jasmineg)
+4. Download this [certificate](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt.pem) and copy to the root of this directory. [***Why you have to do this***](https://docs.microsoft.com/azure/mysql/howto-configure-ssl?WT.mc_id=ca-github-jasmineg)
 5. On the left menu, visit **Connection Security** and click **+ Add client IP*** to add a firewall rule for your ip address.
 6. Set **Allow access to Azure Services** to **On**.
 7. Go back to the **Overview** in MySQL. Your **server name** and **server admin login name**
@@ -96,11 +96,11 @@ Visit [localhost:3000](http://localhost:3000/)
 
 ### Deploy this site to Azure
 
-Checkout this documentation on how to [deploy this to Azure](https://docs.microsoft.com/en-us/azure/app-service/quickstart-nodejs?WT.mc_id=ca-github-jasmineg&pivots=platform-linux#deploy-to-azure)!
+Checkout this documentation on how to [deploy this to Azure](https://docs.microsoft.com/azure/app-service/quickstart-nodejs?WT.mc_id=ca-github-jasmineg&pivots=platform-linux#deploy-to-azure)!
 
 ## Learn more
 
 - [Azure SQL Fundamentals](aka.ms/sdc/SqlFun)
-- [Azure Data Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-data-fundamentals-explore-core-data-concepts/?WT.mc_id=ca-github-jasmineg)
+- [Azure Data Fundamentals](https://docs.microsoft.com/learn/paths/azure-data-fundamentals-explore-core-data-concepts/?WT.mc_id=ca-github-jasmineg)
 
 Contributions are welcome!
