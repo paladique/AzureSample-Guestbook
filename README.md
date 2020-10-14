@@ -102,7 +102,7 @@ Visit [localhost:3000](http://localhost:3000/)
 
 Checkout this documentation on how to [deploy this to Azure](https://docs.microsoft.com/azure/app-service/quickstart-nodejs?WT.mc_id=ca-github-jasmineg&pivots=platform-linux#deploy-to-azure)!
 
-### After you're done
+## After you're done
 
 If you're all done running this sample, [delete the resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/delete-resource-group?WT.mc_id=ca-github-jasmineg&tabs=azure-portal) that you selected or created when you created the databases.
 
