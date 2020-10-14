@@ -4,7 +4,7 @@
 
 This simplified demo is a digital guestbook that walks through different types of data, using the Azure Data platform.
 
-*👷🏿‍♀️ This is functional, but still a work in progress! Contributions welcome!*
+👷🏿‍♀️⚠ *This is functional, but still a work in progress! Contributions welcome!*
 
 ## How it works
 
