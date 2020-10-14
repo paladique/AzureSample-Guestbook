@@ -26,7 +26,9 @@ window.onload = function () {
         gb.sender = document.querySelector("input[name='sender']").value
         gb.message = document.querySelector("input[name='message']").value
         gb.isCosmos = document.querySelector("#cosmos").checked ? true : false;
-        ws.send(JSON.stringify(gb));
+        if (ws.readyState !== WebSocket.CLOSED) {
+            ws.send(JSON.stringify(gb));
+        }
     });
 }
 

@@ -34,7 +34,7 @@ Features:
 
 1. Click this button to create a MySQL and CosmosDB Database in Azure, wait a few minutes for your services to be created. **Keep note of the resource group you created so you can find your databases later!**
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpaladique%2FSample-IntroData%2Fmaster%2Ftemplate%2FdeployTemplate.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpaladique%2FSample-IntroData%2Fmain%2Ftemplate%2FdeployTemplate.json)
    
 2. After your services has been created, go to the [Azure portal](portal.azure.com)
 
