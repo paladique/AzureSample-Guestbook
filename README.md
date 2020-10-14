@@ -39,6 +39,7 @@ Features:
 2. After your services has been created, go to the [Azure portal](portal.azure.com)
 
 ## Configure MySQL
+
 3. Open your MySQL Server (starts with `mysql-`).
 4. On the left menu, visit **Connection Security** and click **+ Add client IP*** to add a firewall rule for your ip address.
 5. Set **Allow access to Azure Services** to **On**.
@@ -72,8 +73,8 @@ SQLPassword = [password for admin login]
 
 ## Visit Cosmos DB
 
-1. Open your Cosmos DB database (starts with `cosmos-`).
-2. On the left menu, visit **Connection String** and copy the **Primary conenction string**
+9. Open your Cosmos DB database (starts with `cosmos-`).
+10. On the left menu, visit **Connection String** and copy the **Primary conenction string**
 
 In the .env file, enter the following values:
 
@@ -89,8 +90,9 @@ it should look something like
 Enter the following command:
 `npm start`
 
-## Learn more
+Visit [localhost:3000](http://localhost:3000/)
 
+## Learn more
 
 ## Contributions Welcome
 

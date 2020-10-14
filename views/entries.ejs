@@ -1,0 +1,14 @@
+<% for (const i in entries) { %>
+    <li class="flex items-center lh-copy pa3 ph0-l bb b--black-10">  
+        <div class="pl3 flex-auto">
+            <% if (entries[i].isCosmos) { %>
+                <img class="w2 h2 w3-ns h3-ns br-100" src="cosmos.svg" />
+                <%} else { %>
+                 <img class="w2 h2 w3-ns h3-ns br-100" src="mysql.svg" />
+                <% } %>
+            <span class="f6 db black-70"><%= entries[i].entrydate %></span>
+            <span class="f6 db black-90"><%= entries[i].sender %></span>
+            <span class="f6 db black-100"><%= entries[i].message %></span>
+          </div>
+    </li>
+ <% } %>
