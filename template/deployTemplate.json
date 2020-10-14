@@ -186,20 +186,6 @@
                 },
                 "options": {}
             }
-        },
-        {
-            "type": "Microsoft.DocumentDB/databaseAccounts/mongodbDatabases/throughputSettings",
-            "apiVersion": "2020-06-01-preview",
-            "name": "[concat(variables('cosmosName'), '/guestbook/default')]",
-            "dependsOn": [
-                "[resourceId('Microsoft.DocumentDB/databaseAccounts/mongodbDatabases', variables('cosmosName'), 'guestbook')]",
-                "[resourceId('Microsoft.DocumentDB/databaseAccounts', variables('cosmosName'))]"
-            ],
-            "properties": {
-                "resource": {
-                    "throughput": 400
-                }
-            }
         }
     ]
 }
