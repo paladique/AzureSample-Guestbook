@@ -20,15 +20,15 @@ Features:
 
 ## Azure Resources Uses
 
-- [Azure DB for MySQL](https://docs.microsoft.com/azure/mysql/overview?WT.mc_id=ca-github-jasmineg)
-- [Cosmos DB (Mongo DB API)](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction?WT.mc_id=ca-github-jasmineg)
-- [Azure App Service (optional)](https://docs.microsoft.com/azure/app-service/?WT.mc_id=ca-github-jasmineg)
+- [Azure DB for MySQL](https://docs.microsoft.com/azure/mysql/overview?WT.mc_id=academic-0000-jasmineg)
+- [Cosmos DB (Mongo DB API)](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction?WT.mc_id=academic-0000-jasmineg)
+- [Azure App Service (optional)](https://docs.microsoft.com/azure/app-service/?WT.mc_id=academic-0000-jasmineg)
 
 ## How to Run
 
 ### Requirements
 
-- [Azure Account](https://azure.microsoft.com/free/?WT.mc_id=ca-github-jasmineg)
+- [Azure Account](https://azure.microsoft.com/free/?WT.mc_id=academic-0000-jasmineg)
 - [Node.js](https://nodejs.org/)
 - Clone/download this repo
 
@@ -38,14 +38,14 @@ Features:
 
 1. Click this button to create a MySQL and CosmosDB Database in Azure, wait a few minutes for your services to be created. **Keep note of the resource group you created so you can find your databases later!**
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpaladique%2FSample-IntroData%2Fmain%2Ftemplate%2FdeployTemplate.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/?WT.mc_id=academic-0000-jasmineg#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpaladique%2FSample-IntroData%2Fmain%2Ftemplate%2FdeployTemplate.json)
    
 2. After your services has been created, go to the [Azure portal](portal.azure.com)
 
 ## Configure MySQL
 
 3. Open your MySQL Server (starts with `mysql-`).
-4. Download this [certificate](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt.pem) and copy to the root of this directory. [***Why you have to do this***](https://docs.microsoft.com/azure/mysql/howto-configure-ssl?WT.mc_id=ca-github-jasmineg)
+4. Download this [certificate](https://www.digicert.com/CACerts/BaltimoreCyberTrustRoot.crt.pem) and copy to the root of this directory. [***Why you have to do this***](https://docs.microsoft.com/azure/mysql/howto-configure-ssl?WT.mc_id=academic-0000-jasmineg)
 5. On the left menu, visit **Connection Security** and click **+ Add client IP*** to add a firewall rule for your ip address.
 6. Set **Allow access to Azure Services** to **On**.
 7. Go back to the **Overview** in MySQL. Your **server name** and **server admin login name**
@@ -100,15 +100,15 @@ Visit [localhost:3000](http://localhost:3000/)
 
 ### Deploy this site to Azure
 
-Checkout this documentation on how to [deploy this to Azure](https://docs.microsoft.com/azure/app-service/quickstart-nodejs?WT.mc_id=ca-github-jasmineg&pivots=platform-linux#deploy-to-azure)!
+Checkout this documentation on how to [deploy this to Azure](https://docs.microsoft.com/azure/app-service/quickstart-nodejs?WT.mc_id=academic-0000-jasmineg&pivots=platform-linux#deploy-to-azure)!
 
 ## After you're done
 
-If you're all done running this sample, [delete the resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/delete-resource-group?WT.mc_id=ca-github-jasmineg&tabs=azure-portal) that you selected or created when you created the databases.
+If you're all done running this sample, [delete the resource group](https://docs.microsoft.com/azure/azure-resource-manager/management/delete-resource-group?WT.mc_id=academic-0000-jasmineg&tabs=azure-portal) that you selected or created when you created the databases.
 
 ## Learn more
 
 - [Azure SQL Fundamentals](aka.ms/sdc/SqlFun)
-- [Azure Data Fundamentals](https://docs.microsoft.com/learn/paths/azure-data-fundamentals-explore-core-data-concepts/?WT.mc_id=ca-github-jasmineg)
+- [Azure Data Fundamentals](https://docs.microsoft.com/learn/paths/azure-data-fundamentals-explore-core-data-concepts/?WT.mc_id=academic-0000-jasmineg)
 
 Contributions are welcome!
